@@ -36,7 +36,7 @@ timer1 = Timer()
 
 
 ########
-timer1.start(inf)
+timer1.start(inf)   #вместо inf впишите количество секунд
 
 FPS = 1
 ########
