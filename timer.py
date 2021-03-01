@@ -17,7 +17,7 @@ class Timer:
 
     def mainflow(self):
         
-        self.time += 1000/FPS
+        self.time += 1000/FPS    #исправление работы
         if type(self.stopper) != str:
             if self.process == True and int(self.time//1000) == self.stopper//1000:
                 print(f"{self.stopper//1000} seconds ran out!")
@@ -25,8 +25,6 @@ class Timer:
 
     def timenow(self):
         return(self.stopper//1000)
-
-
 
 
 
@@ -48,44 +46,4 @@ while 1:
     clock.tick(FPS)
 
     #print(timer1.timenow())
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   
