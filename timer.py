@@ -27,6 +27,10 @@ class Timer:
         return(self.stopper//1000)
 
 
+#######
+чтоугодно = print
+чтоугодно(1)
+#######
 
 
 
